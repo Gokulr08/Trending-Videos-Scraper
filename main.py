@@ -84,7 +84,7 @@ def send_email(attachment_path):
         # Connect to SMTP server and send the email
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login('ravikumargokul440@gmail.com', 'jelelegoxelyythz')
+        server.login('mailid@gmail.com', 'password')
         server.sendmail(sender, receivers, message.as_string())
         server.quit()
         print("Email sent successfully.")
