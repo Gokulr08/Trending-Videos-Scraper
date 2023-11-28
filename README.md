@@ -1,0 +1,1 @@
+This is a hands-on learning journey where I explore Selenium and ChromeDriver to fetch details from the top 10 trending videos on YouTube. Extracting channel names, URLs, views, and descriptions, the project not only teaches but also saves this valuable data as a CSV using pandas. As a bonus, I've added a feature to effortlessly send the CSV via email using Python's smtplib.
